@@ -40,3 +40,5 @@ app.post("/movies/", async (request, response) => {
   const movie_id = result.lastID;
   response.send({ movie_id: movie_id });
 });
+
+module.exports = app;
